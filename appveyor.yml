@@ -11,7 +11,7 @@ init:
   - sh: echo $APPVEYOR_BUILD_WORKER_CLOUD
 
 test_script:
-  - Octo
-  - Octo version
+  - octo
+  - octo version
 
 build: off
